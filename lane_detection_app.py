@@ -4,7 +4,7 @@ import cv2
 import os
 import tempfile
 from moviepy.editor import VideoFileClip
-#thay đổi thử thôi
+
 class LaneDetector:
     def __init__(self, config=None):
         # Cấu hình mặc định
